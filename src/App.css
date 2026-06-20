@@ -1,0 +1,26 @@
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0b132b 0%, #1c2541 100%);
+}
+
+.hero-section {
+  min-height: 75vh;
+}
+
+.location-badge {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-nav-text {
+  font-size: 10px;
+  display: block;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.15s ease-out forwards;
+}
