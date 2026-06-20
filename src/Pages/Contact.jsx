@@ -60,8 +60,8 @@ function Contact({ language = 'en' }) {
             <h2 className="text-lg font-semibold text-white">{t.followUs}</h2>
             <div className="flex gap-3 text-blue-300">
               <a href="#" className="hover:underline">{t.twitter}</a>
-              <a href="#" className="hover:underline">{t.facebook}</a>
-              <a href="#" className="hover:underline">{t.instagram}</a>
+              <a href="https://www.facebook.com/profile.php?id=61590448574228" className="hover:underline">{t.facebook}</a>
+              <a href="https://www.instagram.com/itskmailabbas012/" className="hover:underline">{t.instagram}</a>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ function Contact({ language = 'en' }) {
             <div className="mt-2 w-full h-40 bg-white/5 rounded-[1.5rem] overflow-hidden">
               <iframe
                 title="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093747!2d144.9537363153168!3d-37.8162797420216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f1f1f1%3A0x1c1c1c1c1c1c1c1c!2sPlaceholder!5e0!3m2!1sen!2sus!4v1610000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/search/my+locaiton/@35.2893434,75.6316588,637m/data=!3m1!1e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
                 className="w-full h-full"
                 frameBorder="0"
                 loading="lazy"
